@@ -1,0 +1,71 @@
+{
+  "category": "web-servers",
+  "created_date": "2025-09-15T22:48:57.186922",
+  "default_ports": [
+    1,
+    5,
+    80,
+    443,
+    3000,
+    8080,
+    8081
+  ],
+  "dependencies": [
+    "apr",
+    "apr-util",
+    "httpd-tools",
+    "mod_ssl"
+  ],
+  "description": "Apache HTTP Server is a free and open-source cross-platform web server software developed and maintained by the Apache Software Foundation. Originally based on the NCSA HTTPd server, Apache has been the most popular web server on the Internet since April 1996, serving over 40% of active websites. It serves as a FOSS alternative to commercial web servers like Microsoft IIS, NGINX Plus, or F5 BIG-IP, offering enterprise-grade performance, security, and flexibility without licensing costs.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/web-servers/apache",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/web-servers/apache",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:57.186940",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "apache",
+  "repository_url": "https://github.com/howtomgr/apache",
+  "spec_version": "2.0",
+  "subcategory": "web-servers",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "web-servers",
+    "observability",
+    "data-storage",
+    "web-services",
+    "networking",
+    "security",
+    "data-protection",
+    "communication"
+  ],
+  "title": "Apache HTTP Server Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/web-servers/apache"
+}
